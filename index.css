@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Sans+Thai+Looped:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+body{
+  font-family: 'Cormorant Garamond', serif;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background:white;
+  height: 100%;
+  width: 15rem;
+  border-right: dashed;
+}
+#navbar header{
+  font-size: 1.5rem;
+  font-family:'Abril Fatface';
+  text-align: center;
+  margin-top: 10px;
+}
+#navbar ul {
+  padding: 0;
+}
+#navbar li{
+  list-style: none;
+  width: 100%;
+  border-top: 1px dashed;
+  font-size: 1.2rem;
+}
+#navbar a{
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  justify-content: space-around;
+  
+}
+a:link {
+  color: #ff9867;
+}
+a:visited {
+  color: #ff9867;
+}
+a:hover {
+  color: #ffbf87;
+}
+a:active {
+  color: #ff4545;
+}
+#The_Beginner_Guide_to_Choosing_a_Keyboard_or_Piano header{
+  font-size: 1.2rem;
+}
+#main-doc {
+  left: 15rem;
+  position: relative;
+}
+@media (max-width: 815px) {
+  /* For mobile phones: */
+  nav {
+    visibility: hidden;
+  }
+  #main-doc{
+    left:0px;
+    transition: left .8s ease-out;
+  }
+}
+
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: 'Abril Fatface';
+    padding: 0 3px;
+}
